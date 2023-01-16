@@ -47,7 +47,7 @@ def main():
     if os.path.exists("Test_file.txt"):
         os.remove("Test_file.txt")
     
-    nlp = spacy.load('en_core_web_lg') #en_core_web_sm
+    nlp = spacy.load('en_core_web_sm') #en_core_web_sm
     
     extracted_text = extract_text_from_pdf('Text_for_testing.pdf')
 
