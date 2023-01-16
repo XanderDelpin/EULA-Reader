@@ -2,7 +2,7 @@ import spacy
 import PyPDF2
 import string
 
-#This is a test...
+#This is a test....
 
 def extract_text_from_pdf(pdf_file):
     # Open the PDF file of your choice
