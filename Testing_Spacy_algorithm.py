@@ -1,8 +1,8 @@
 import spacy
 import PyPDF2
-import string
+#import string
 
-#This is a test....
+#This is a test.........
 
 # Extracting text from PDF file
 def extract_text_from_pdf(pdf_file):
@@ -63,6 +63,7 @@ def main():
 
     # Write to file word and DEP token
     # Dep: Syntactic dependency, i.e. the relation between tokens
+    # DEP = dependencies
     for token in doc:
         writing_to_file(token.text, token.dep_)
     
