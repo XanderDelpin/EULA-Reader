@@ -1,5 +1,6 @@
 import spacy
 import PyPDF2
+from spacy import displacy
 #import string
 
 #This is a test.........
@@ -64,8 +65,16 @@ def main():
     # Write to file word and DEP token
     # Dep: Syntactic dependency, i.e. the relation between tokens
     # DEP = dependencies
-    for token in doc:
-        writing_to_file(token.text, token.dep_)
+
+    # Line 70-71 has been commented to avoid the creation of more text files
+    # for token in doc: 
+    #    writing_to_file(token.text, token.dep_)
+
+    
+    # These lines of code print out every known organization entity in the text provided
+    for ent in doc.ents:
+        if (ent.label_ == "ORG"):
+            print (ent.text, ent.label_)
     
     #writing_to_file(doc.text)
     
