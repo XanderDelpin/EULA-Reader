@@ -3,7 +3,7 @@ import PyPDF2
 from spacy import displacy
 #import string
 
-#This is a test.........
+#This is a test..........
 
 # Extracting text from PDF file
 def extract_text_from_pdf(pdf_file):
