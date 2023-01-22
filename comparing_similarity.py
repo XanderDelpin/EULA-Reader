@@ -36,10 +36,10 @@ extract_text2 = clean_data(extract_text2)
 extract_text3 = clean_data(extract_text3)
 extract_JungleBook = clean_data(extract_JungleBook)
 
-doc1 = nlp(extract_text1)
-doc2 = nlp(extract_text2)
-doc3 = nlp(extract_text3)
-doc_JB = nlp(extract_JungleBook)
+doc1 = nlp(extract_text1)        # VTech EULA
+doc2 = nlp(extract_text2)        # Facebook EULA
+doc3 = nlp(extract_text3)        # Apple EULA
+doc_JB = nlp(extract_JungleBook) # The Jungle Book
 
 print("doc1 & doc2: ", doc1.similarity(doc2))
 print("doc1 & doc3: ", doc1.similarity(doc3))
