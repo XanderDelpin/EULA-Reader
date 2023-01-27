@@ -50,16 +50,16 @@ twitterEULA = nlp(extract_text4)          # Twitter EULA
 codeCademyEULA = nlp(extract_text5)       # CodeCademy EULA
 theJungleBook = nlp(extract_JungleBook)   # The Jungle Book
 
-print("vtechEULA & metaEULA: ", vtechEULA.similarity(metaEULA))
-print("vtechEULA & appleEULA: ", vtechEULA.similarity(appleEULA))
-print("metaEULA & appleEULA: ", metaEULA.similarity(appleEULA))
-print("twitterEULA & appleEULA: ", twitterEULA.similarity(appleEULA))             # NEW
-print("twitterEULA & metaEULA: ", twitterEULA.similarity(metaEULA))               # NEW
-print("twitterEULA & codeCademyEULA: ", twitterEULA.similarity(codeCademyEULA))   # NEW
-print("vtechEULA & the Jungle Book: ", vtechEULA.similarity(theJungleBook))
-print("metaEULA & the Jungle Book: ", metaEULA.similarity(theJungleBook))
-print("appleEULA & the Jungle Book: ", appleEULA.similarity(theJungleBook))
-print("twitterEULA & the Jungle Book: ", twitterEULA.similarity(theJungleBook))   # NEW
+# print("vtechEULA & metaEULA: ", vtechEULA.similarity(metaEULA))
+# print("vtechEULA & appleEULA: ", vtechEULA.similarity(appleEULA))
+# print("metaEULA & appleEULA: ", metaEULA.similarity(appleEULA))
+# print("twitterEULA & appleEULA: ", twitterEULA.similarity(appleEULA))             # NEW
+# print("twitterEULA & metaEULA: ", twitterEULA.similarity(metaEULA))               # NEW
+# print("twitterEULA & codeCademyEULA: ", twitterEULA.similarity(codeCademyEULA))   # NEW
+# print("vtechEULA & the Jungle Book: ", vtechEULA.similarity(theJungleBook))
+# print("metaEULA & the Jungle Book: ", metaEULA.similarity(theJungleBook))
+# print("appleEULA & the Jungle Book: ", appleEULA.similarity(theJungleBook))
+# print("twitterEULA & the Jungle Book: ", twitterEULA.similarity(theJungleBook))   # NEW
 
 
 # Before cleaning data
@@ -79,6 +79,6 @@ print("twitterEULA & the Jungle Book: ", twitterEULA.similarity(theJungleBook)) 
 # output metaEULA & Jungle Book:        0.6732221021613455
 # output Jungle Book & metaEULA:        0.5904939603892637
 # output appleEULA & the Jungle Book:   0.6403303658076122
-# output twitterEULA & the Jungle Book: 0.6736736358520159 NEW
+# output twitterEULA & the Jungle Book: 0.6736736358520159   NEW
 
 #NOTE: PRIVACY POLICIES APPEAR TO BE AT LEAST 96% SIMILAR TO EACH OTHER DUE TO CONTEXT
