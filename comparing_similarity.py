@@ -84,5 +84,5 @@ theJungleBook = nlp(extract_JungleBook)   # The Jungle Book
 #NOTE: PRIVACY POLICIES APPEAR TO BE AT LEAST 96% SIMILAR TO EACH OTHER DUE TO CONTEXT
 
 
-#Commit Test - Eduardo Fumero
+
 #COMPARING SIMILARITIES - TEST ALEXANDER - COMMIT
